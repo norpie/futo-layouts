@@ -1,8 +1,38 @@
 name: QWERTY
 rows:
-  - letters: q w e r t y u i o p
+  - letters:
+    - {type: case, normal: q, shifted: Q}
+    - {type: case, normal: w, shifted: W}
+    - {type: case, normal: e, shifted: E}
+    - {type: case, normal: r, shifted: R}
+    - {type: case, normal: t, shifted: T}
+    - {type: case, normal: y, shifted: Y}
+    - {type: case, normal: u, shifted: U}
+    - {type: case, normal: i, shifted: I}
+    - {type: case, normal: o, shifted: O}
+    - {type: case, normal: p, shifted: P}
     rowHeight: 1.0
-  - letters: a s d f g h j k l $gap
+  - letters:
+    - {type: case, normal: a, shifted: A}
+    - {type: case, normal: s, shifted: S}
+    - {type: case, normal: d, shifted: D}
+    - {type: case, normal: f, shifted: F}
+    - {type: case, normal: g, shifted: G}
+    - {type: case, normal: h, shifted: H}
+    - {type: case, normal: j, shifted: J}
+    - {type: case, normal: k, shifted: K}
+    - {type: case, normal: l, shifted: L}
+    - [";", ":", "'", "\"", "¡", "¿"]
     rowHeight: 1.0
-  - letters: z x c v b n m $gap $gap $gap
+  - letters:
+    - {type: case, normal: z, shifted: Z}
+    - {type: case, normal: x, shifted: X}
+    - {type: case, normal: c, shifted: C}
+    - {type: case, normal: v, shifted: V}
+    - {type: case, normal: b, shifted: B}
+    - {type: case, normal: n, shifted: N}
+    - {type: case, normal: m, shifted: M}
+    - [",", "<", "(", "[", "{", "‹", "«"]
+    - [".", ">", ")", "]", "}", "›", "»"]
+    - ["/", "?", "\\", "|", "¦", "§", "¶"]
     rowHeight: 1.0
