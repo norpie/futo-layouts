@@ -1,5 +1,8 @@
 name: QWERTY
 rows:
   - letters: q w e r t y u i o p
-  - letters: a s d f g h j k l
-  - letters: z x c v b n m
+    rowHeight: 1.0
+  - letters: a s d f g h j k l $gap
+    rowHeight: 1.0
+  - letters: z x c v b n m $gap $gap $gap
+    rowHeight: 1.0
